@@ -1,0 +1,10 @@
+name = "cloudflare_email_workers_base"
+main = "src/index.js"
+compatibility_date = "2023-02-21"
+usage_model = "bundled"
+
+[vars]
+SLACK_WEBHOOK_URL = ""
+SLACK_BOT_ACCESS_TOKEN = "xapp-"
+LINE_NOTIFY_TOKEN = ""
+FORWARD_EMAIL_ADDRESS = ""
